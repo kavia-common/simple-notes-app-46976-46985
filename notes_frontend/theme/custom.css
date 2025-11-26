@@ -16,28 +16,28 @@
   --theme-border-strong: #43444A;
 
   /* Primary brand – Blue/Purple */
-  --theme-primary-600: #5B6FDB;
-  --theme-primary-500: #6B7FEB;
-  --theme-primary-400: #8B9FFB;
-  --theme-primary-300: #A8B7FF;
-  --theme-primary-200: #C8D1FF;
-  --theme-primary-50:  #EEF0FF;
+  --theme-primary-600: #3158c8;
+  --theme-primary-500: #2563EB; /* Ocean primary */
+  --theme-primary-400: #3b82f6;
+  --theme-primary-300: #60a5fa;
+  --theme-primary-200: #93c5fd;
+  --theme-primary-50:  #dbeafe;
 
   /* Accent aliases for backwards compatibility */
   --theme-accent: var(--theme-primary-500);
   --theme-accent-strong: var(--theme-primary-600);
 
   /* Semantic */
-  --theme-success: #40D79E;
-  --theme-warning: #FFC75A;
-  --theme-danger:  #FF6B6B;
-  --theme-info:    #6EB9FF;
+  --theme-success: #22c55e;
+  --theme-warning: #F59E0B; /* Ocean secondary */
+  --theme-danger:  #EF4444;
+  --theme-info:    #38bdf8;
 
   /* Controls */
-  --theme-btn-primary-fg: #1A1B1F;
+  --theme-btn-primary-fg: #f9fafb;
   --theme-btn-primary-bg: var(--theme-primary-500);
   --theme-btn-primary-hover: var(--theme-primary-600);
-  --theme-btn-primary-press: #4B5FCB;
+  --theme-btn-primary-press: #1e40af;
   --theme-btn-ghost-fg: var(--theme-text-secondary);
   --theme-btn-ghost-hover-bg: var(--theme-bg-elev-2);
   --theme-chip-bg: var(--theme-bg-elev-2);
@@ -47,7 +47,7 @@
 
   /* Focus and overlays */
   --theme-focus-ring: var(--theme-primary-400);
-  --theme-overlay-ambient: linear-gradient(180deg, rgba(107,127,235,0.18) 0%, rgba(0,0,0,0) 55%);
+  --theme-overlay-ambient: linear-gradient(180deg, rgba(37,99,235,0.18) 0%, rgba(0,0,0,0) 55%);
 
   /* Lines (generic fallbacks still supported) */
   --line-subtle: var(--theme-border-subtle);
@@ -73,7 +73,7 @@
 
   /* Gradients: primary brand */
   --grad-primary: linear-gradient(135deg, var(--theme-primary-600) 0%, var(--theme-primary-400) 50%, var(--theme-primary-300) 100%);
-  --grad-hero: radial-gradient(1200px 600px at 60% -10%, rgba(107,127,235,0.22) 0%, rgba(139,159,251,0.15) 35%, rgba(26,27,31,0) 70%);
+  --grad-hero: radial-gradient(1200px 600px at 60% -10%, rgba(37,99,235,0.22) 0%, rgba(59,130,246,0.15) 35%, rgba(26,27,31,0) 70%);
 }
 
 /* Base */
